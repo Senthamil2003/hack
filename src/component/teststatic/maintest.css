@@ -1,0 +1,280 @@
+.tottst{
+    position: absolute;
+    width: 100%;
+}
+.nav1 {
+    width: 100%;
+    margin-left: 0%;
+    position: relative;
+
+}
+.tstline2{
+    width: 70%;
+    margin-top: 2%;
+    margin-left: 2%;
+
+}
+
+.tside {
+    width: 25%;
+    height: 638px;
+    background-color: #EBEAEA;
+    border: solid;
+    margin-left: 75%;
+    border-width: 1px;
+    position: absolute;
+   
+    border-color: #EBEAEA;
+
+}
+
+.circle {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: #C5C2C2
+
+}
+
+.circle1 {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: #E85C5B;
+
+}
+
+.ttxt1 {
+    position: absolute;
+    margin-top: 3.5%;
+    margin-left: 6%;
+    color: #191919;
+
+
+}
+
+.ttxt2 {
+    position: absolute;
+    margin-top: 3.2%;
+    margin-left: 6.1%;
+    color: #191919;
+
+
+}
+
+.sidecont {
+    display: flex;
+    margin-top: 6%;
+    margin-left: 8%;
+
+
+}
+
+.sidehold {
+    margin-left: 5.7%;
+}
+.tstimg4{
+    height: 140px;
+    width: 300px;
+    margin-left: 10%;
+    margin-top: -25px;
+
+}
+.tstbtncont{
+   margin-top: 2%;
+   
+}
+.line1 {
+    margin-top: 8%;
+    width: 350px;
+    margin: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    border-width: 0;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.08);
+    border-bottom-width: thin;
+    background-color: transparent;
+    background-image: linear-gradient(to right, rgba(52, 71, 103, 0), rgba(52, 71, 103, 0.4), rgba(52, 71, 103, 0)) !important;
+    height: 0.0625rem;
+    margin: 1rem 0;
+    border-bottom: none;
+    opacity: 0.25;
+    background-color: transparent;
+    z-index: -1;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff, rgba(255, 255, 255, 0)) !important;
+
+}
+
+.sideh1 {
+    color: rgb(0, 0, 0);
+    margin-top: 3%;
+    text-align: center;
+
+}
+
+
+
+.sbtn1 {
+    height: 48px;
+    width: 250px;
+   background-color: #142757;
+    margin-left: 18%;
+    border-radius: 20px;
+    color: white;
+}
+
+.sbtn2 {
+    height: 48px;
+    width: 250px;
+    background-color: red;
+    margin-left: 18%;
+    border-radius: 20px;
+    color: white;
+    margin-top: 3%;
+}
+
+.sbtn3 {
+    height: 48px;
+    width: 250px;
+    background-color: rgb(215, 105, 27);
+    margin-left: 18%;
+    border-radius: 20px;
+    color: white;
+    margin-top: 3%;
+
+}
+
+.sbtn4 {
+    height: 48px;
+    width: 180px;
+    background-color: rgb(215, 62, 32);
+    margin-left: 18%;
+    border-radius: 20px;
+    color: white;
+    margin-top: 3%;
+
+}
+
+.footer {
+    width: 75%;
+    height: 100px;
+    margin-top: 27.5%;
+    display: flex;
+
+}
+
+.sbtn5 {
+    height: 48px;
+    width: 150px;
+    background-color: #142757;
+    margin-left: 28%;
+    color: white;
+    margin-top: 3%;
+
+}
+
+.sbtn6 {
+    height: 48px;
+    width: 150px;
+    background-color: #B90606;
+    margin-left: 1%;
+    color: white;
+    margin-top: 3%;
+
+}
+
+.sbtn7 {
+    height: 48px;
+    width: 150px;
+    background-color: #142757;
+    margin-left: 1%;
+    color: white;
+    margin-top: 3%;
+
+}
+
+.timecont {
+    display: flex;
+    margin-top: 1.3%;
+    margin-left: 14%;
+
+}
+
+.tbg {
+    height: 40px;
+    width: 40px;
+    background-color: #f3ecec;
+    margin-left: 0.8%;
+    border-radius: 5px;
+
+}
+
+.nimg {
+    margin-left: 0.5%;
+}
+
+.tcol {
+    margin-left: 1%;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+.tp {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 8%;
+}
+
+.ttxt {
+    width: 120px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 1.4%;
+}
+
+.sbtn8 {
+    height: 48px;
+    width: 150px;
+    background-image: linear-gradient(195deg, rgb(192, 48, 48), rgb(255, 77, 77));
+    margin-left: 1%;
+    color: white;
+    margin-top: 8.5%;
+    margin-left: 280%;
+}
+
+.sbtn9 {
+    height: 38px;
+    width: 140px;
+   background-color: #142757;
+    margin-left: 2%;
+    color: white;
+    margin-top: 2%;
+
+}
+
+.sbtn10 {
+    height: 38px;
+    width: 140px;
+    background-color: #f2ebeb;
+    margin-left: 1%;
+
+    color: rgb(0, 0, 0);
+    margin-top: 2%;
+
+}
+
+.tline1 {
+    margin-top: 27%;
+    width: 70%;
+    margin-left: 2%;
+    position: absolute;
+
+
+}

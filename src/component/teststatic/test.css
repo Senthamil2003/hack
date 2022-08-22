@@ -1,0 +1,206 @@
+.nav1 {
+    width: 100%;
+    height: 83px;
+    background-color: white;
+    margin: 0;
+    display: flex;
+    box-shadow: rgba(60, 64, 67, 0.3) 3px 3px 3px 3px;
+
+}
+
+.tstimg1 {
+    height: 180px;
+    margin-top: -17px;
+    width: 300px;
+    margin-left: 42%;
+
+}
+
+.d1 {
+    height: 500px;
+    width: 44%;
+    position: absolute;
+    padding: 2%;
+    border: solid;
+    margin-top: 2%;
+    border-radius: 20px;
+    border-color: rgb(146, 152, 152);
+    margin-left: 1%;
+    margin-top: 2%;
+
+
+}
+
+.d2 {
+    height: 500px;
+    width: 50%;
+    position: absolute;
+
+    margin-left: 48%;
+    margin-top: 5%;
+}
+
+.th1 {
+    text-align: center;
+
+}
+
+.tstli {
+    margin-top: 1%;
+    font-size: 20px;
+
+}
+
+.tsl {
+    margin-top: 7%;
+}
+
+.tl1 {
+    width: 101%;
+    height: 35px;
+    background-image: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
+
+}
+
+.tstcont {
+    height: 280px;
+}
+
+.tcont {
+    display: flex;
+    margin-left: 8.5%;
+    margin-top: 4%;
+
+}
+
+.thold {
+    margin-left: 10%;
+}
+
+.th2 {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.hh1 {
+    font-size: 20px;
+    font-weight: bold;
+
+
+
+}
+
+.line1 {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+.hp1 {
+    text-align: center;
+}
+
+.tstbtn {
+    height: 45px;
+    width: 140px;
+    background-color: rgb(44, 192, 66);
+    color: white;
+    border-color: white;
+    margin-top: 5%;
+    margin-left: 43%;
+
+}
+
+.tstimg2 {
+    height: 50px;
+    width: 50px;
+}
+
+.thome1 {
+    margin-left: 20%;
+    width: 80%;
+    height: 87.2%;
+    z-index: -1;
+    margin-top: 5.8%;
+    position: absolute;
+}
+
+.tdb1 {
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 3%;
+    color: white;
+    border-color: white;
+    background-image: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
+
+}
+
+.tdb2 {
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    border-color: white;
+
+
+
+}
+
+.tstcat {
+    margin-top: 2%;
+    margin-left: 35%;
+}
+.tdcont{
+    width: 100%;
+    margin-top: 5%;
+}
+
+.tdtst {
+   width: 80%;
+    height: 190px;
+    background-color: #F5F1F1;
+    border-radius: 20px;
+    margin-left: 10%;
+   
+
+}
+.tdtstp1{
+    margin: 0;
+    position: absolute;
+    margin-top: 2%;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 3%;
+}
+.tdtstp2{
+    margin: 0;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 3%;
+    font-size: 18px;
+}
+.tdb3{
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 3%;
+    color: white;
+    border-color: white;
+    background-image: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
+    margin-top: 20%;
+    margin-left: 4%;
+
+}
+.tdimg1{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-left: 20%;
+}
+.tdtxt{
+    margin-left: 38%;
+   
+
+    
+
+}

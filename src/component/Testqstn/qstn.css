@@ -1,0 +1,30 @@
+.qs1{
+    height: 400px;
+    width: 1000px;
+    position: absolute;
+    margin-top: 13.5%;
+    margin-left: 4.8%;
+    
+}
+.qsdiv1{
+    height: 30%;
+    width: 95%;
+    border-radius: 20px;
+    background-color: #F5F1F1;
+}
+.qsp1{
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 4.2%;
+    margin-left: 5%;
+}
+.option{
+   margin-left: 3%;
+   margin-top: 3%;
+
+}
+.ans{
+    font-size: 20px;
+    margin-left: 1%;
+}

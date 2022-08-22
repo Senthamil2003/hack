@@ -1,0 +1,437 @@
+@font-face {
+    font-family: "dark";
+    src: local("dark"),
+        url("../../font/New Athletic M54.ttf") format("truetype");
+    font-weight: bold;
+}
+.sample{
+    height: 95px;
+}
+.tot {
+    height: 690px;
+    width: 99%;
+    margin-left: 0.5%;
+    background-image: url("https://img.freepik.com/free-photo/close-up-hand-taking-notes_23-2148888827.jpg?w=1380&t=st=1660879111~exp=1660879711~hmac=28dea54611445668d9d133e2ca95765233b7292af20072743bfc4d6394ca8536");
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 20px;
+
+
+
+}
+
+.gn {
+    width: 99%;
+    height: 93px;
+    background-color: white;
+    box-shadow: rgba(185, 185, 186, 0.3) 3px 3px 3px 3px;
+    position: fixed;
+    border-radius: 20px;
+    margin-left: 0.5%;
+    z-index: 1;
+    display: flex;
+
+
+
+
+}
+
+
+
+
+.gimg1 {
+    height: 130px;
+    width: 300px;
+    margin: 0;
+
+
+}
+
+.div1 {
+    margin-top: 10%;
+    height: 400px;
+    width: 50%;
+
+    position: absolute;
+}
+
+
+.div2 {
+    height: 400px;
+    width: 40%;
+    margin-top: 10%;
+    position: absolute;
+    margin-left: 54%;
+}
+
+*,
+::after,
+::before {
+    box-sizing: none;
+}
+
+.div3 {
+
+    height: 500px;
+    width: 99%;
+    margin-left: 0.5%;
+    border-radius: 20px;
+
+    background-color: #f0f2f5;
+    
+
+
+
+}
+
+.bimg1 {
+    height: 480px;
+    width: 580px;
+    margin-left: 10%;
+}
+
+
+
+.b2 {
+    height: 47px;
+    width: 115px;
+    border-radius: 50px;
+    background-color: #2B3D52;
+    color: white;
+    font-size: 15px;
+    border-color: rgb(45, 42, 42);
+    margin-left: 75px;
+}
+
+.b1:hover {
+    box-shadow: 2px 2px 2px 2px #888888;
+}
+
+.b2:hover {
+    box-shadow: 2px 2px 2px 2px #888888;
+
+}
+
+.list {
+    margin-left: 500px;
+    margin-top: 2%;
+    display: flex;
+}
+
+.listitem {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+
+
+
+}
+
+.listitem1 {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+
+
+
+}
+
+.cont {
+    height: 29px;
+    width: 120px;
+    text-align: center;
+
+    margin-left: 2%;
+    padding: 1.3%;
+    border-radius: 30px;
+}
+
+.listitem-active {
+    height: 43px;
+    width: 120px;
+    text-align: center;
+    background-image: linear-gradient(195deg, #42424a, #191919);
+    box-shadow: rgba(60, 64, 67, 0.3) 2px 2px 2px 2px;
+    margin-left: 3%;
+    padding: 1.3%;
+    border-radius: 30px;
+
+}
+
+.gimg2 {
+    position: absolute;
+}
+
+.d-block {
+    height: 400px;
+    width: 400px;
+    margin-left: 20%;
+    margin-top: 10%;
+    border-radius: 20px;
+}
+
+.carousel-indicators [data-bs-target] {
+    display: none;
+}
+
+.cap {
+    opacity: 100%;
+    height: 190px;
+    background-color: #e1dcdc;
+    width: 400px;
+    margin-left: 5%;
+    margin-bottom: -3.2%;
+    border-radius: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 2px 2px 2px 2px;
+    padding: 1%;
+   
+}
+
+.totcar {
+    width: 40%;
+  
+    margin-left: 55%;
+    
+
+
+
+
+
+
+}
+
+.td1 {
+    position: absolute;
+    margin-top: 3%;
+    width: 45%;
+    height: 400px;
+    text-align: center;
+
+    border-radius: 20px;
+    margin-left: 6%;
+    padding: 1%;
+
+}
+
+.th1 {
+  
+ margin-top:4%;
+}
+    
+
+
+
+
+
+.tp1 {
+    font-size: 27px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.div4 {
+    height: 580px;
+    width: 99%;
+    margin-left: 0.5%;
+
+}
+
+.th2 {
+    color: #191919;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.tp2 {
+    color: black;
+    font-size: 18px;
+}
+
+.ftdiv {
+    height: 400px;
+    width: 90%;
+    display: flex;
+    margin-left: 2.5%;
+    margin-top: 5%;
+}
+
+.fdiv {
+    height: 280px;
+    width: 300px;
+    box-shadow: rgba(60, 64, 67, 0.3) 4px 4px 4px 4px;
+    margin-left: 5%;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.fdiv:hover{
+    transform: scale(1.06);
+}
+
+.fimg1 {
+    height: 180px;
+    width: 180px;
+    margin-left: 16%;
+    margin-top: 9%;
+}
+
+.fh1 {
+    margin-left: 48%;
+    margin-top: 8%;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.fp1 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+.fp2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 4%;
+    font-weight: bold;
+}
+
+.fp3 {
+    font-size: 20px;
+    margin-left: 2%;
+    margin-top: 4%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fp4 {
+    font-size: 20px;
+
+    margin-top: 4%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.div5 {
+    height: 600px;
+    background-color: #f0f2f5;
+    width: 99%;
+    margin-left: 0.5%;
+    border-radius: 20px;
+    box-shadow: rgba(134, 189, 231, 0.3) 4px 4px 4px 4px;
+
+}
+
+.fidiv1 {
+    height: 400px;
+    width: 400px;
+
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+
+.fidiv2 {
+    height: 400px;
+    width: 460px;
+    position: absolute;
+    margin-left: 59%;
+    margin-top: 15%;
+
+}
+
+.fiimg1 {
+    height: 400px;
+    width: 400px;
+    border-radius: 30px;
+}
+
+.fih1 {
+    margin-left: 46%;
+    margin-top: 4.5%;
+    position: absolute;
+}
+
+.fip1 {
+    font-size: 26px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.div6 {
+    height: 600px;
+}
+
+.sih1 {
+    margin-left: 46%;
+    margin-top: 4.5%;
+    position: absolute;
+}
+
+.sip1 {
+    font-size: 26px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.sidiv1 {
+    height: 400px;
+    width: 450px;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 15%;
+
+}
+
+.sidiv2 {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 5%;
+
+}
+
+.siih1 {
+    margin-left: 46%;
+    margin-top: 4.5%;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.div7 {
+    height: 300px;
+    width: 99%;
+    margin-left: 0.5%;
+    background-image: linear-gradient(195deg, #42424a, #191919);
+    border-radius: 20px;
+}
+
+.foot {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+    position: absolute;
+
+}
+
+.fth1 {
+    color: white;
+}
+
+.ftp1 {
+    color: white;
+    margin-top: 9%;
+
+}
+
+.sfoot { 
+    margin-left: 10%;
+    width: 300px;
+}
