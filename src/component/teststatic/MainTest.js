@@ -6,7 +6,6 @@ export default class MainTest extends Component {
   render() {
     return (
       <div>
-        <Testside/>
         <Outlet/>
 
       </div>

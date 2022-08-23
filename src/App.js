@@ -7,7 +7,7 @@ import MainTest from './component/teststatic/MainTest';
 
 import BeforeTest from './component/teststatic/BeforeTest';
 import Greet from "./component/greet/greet"
-import Qstn1 from './component/Testqstn/qstn1';
+import Questions from './component/Testqstn/questions';
 import Dashboard from './component/Main/Dashoard';
 import Testdash from './component/teststatic/testdashacadamics';
 import Feedback from './component/teststatic/testdashfeedback';
@@ -41,7 +41,7 @@ function App() {
           <Route path="/test/main" element={<MainTest />} >
 
                            
-            <Route path="/test/main/qs1" element={<Qstn1 />} />
+            <Route path="/test/main/questions" element={<Questions />} />
 
           </Route>
           <Route path="/teachers" element={<Tdash />} />
