@@ -9,11 +9,16 @@ import BeforeTest from './component/teststatic/BeforeTest';
 import Greet from "./component/greet/greet"
 import Qstn1 from './component/Testqstn/qstn1';
 import Dashboard from './component/Main/Dashoard';
-import Testdash from './component/teststatic/testdash';
+import Testdash from './component/teststatic/testdashacadamics';
+import Feedback from './component/teststatic/testdashfeedback';
+import Tdash from './componentteachers/teachersdash/tdash';
+import Report from './component/report/Report';
+import Roadmap from './component/Roadmap/Roadmap';
 
 
 
 function App() {
+
   return (
     <div className="App">
       <Router>
@@ -23,7 +28,11 @@ function App() {
           <Route path="/signup" element={<Loginfun />} />
           <Route path="/student" element={<Nav />} >
             <Route path="/student/dashboard" element={<Dashboard />} />
-            <Route path="/student/test" element={<Testdash />} />
+            <Route path="/student/acadamics" element={<Testdash />} />
+            <Route path="/student/acadamics/feedback" element={<Feedback />} />
+            <Route path="/student/material" element={<Report />} />
+            <Route path="/student/roadmap" element={<Roadmap />} />
+            
 
 
           </Route>
@@ -31,10 +40,12 @@ function App() {
 
           <Route path="/test/main" element={<MainTest />} >
 
-
+                           
             <Route path="/test/main/qs1" element={<Qstn1 />} />
 
           </Route>
+          <Route path="/teachers" element={<Tdash />} />
+
 
 
 

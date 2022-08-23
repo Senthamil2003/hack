@@ -3,19 +3,20 @@ import "./test.css"
 import test from "../../image/test.png"
 import { Link } from 'react-router-dom'
 
-export default class Testdash extends Component {
+export default class Feedback extends Component {
     render() {
         return (
             <div className='thome1'>
                 <div className='tstcat'>
-                    <button className='tdb1'>Acadamics</button>
-                    <button className='tdb2'>placement</button>
+                <Link to="/student/acadamics"> <button className='tdb2'>Acadamics</button></Link>
+                   <button className='tdb1'>Feedback</button>
+                   
                 </div>
                 <div className='tdcont'>
                     <div className='tdtst'>
                         <img src={test} alt="hi" className='tdimg1'/>
                         <div className='tdtxt'>
-                        <p className='tdtstp1'>Regular Knowledge Assesment</p>
+                        <p className='tdtstp1'>Feedback Assesment1</p>
                         <p className='tdtstp2'>8-Aug-2022 09:00 am to  10:00 am</p>
                        <Link to="/test/beforetst"><button className='tdb3'>Take Test</button></Link> 
                         </div>
@@ -28,7 +29,7 @@ export default class Testdash extends Component {
                     <div className='tdtst'>
                         <img src={test} alt="hi" className='tdimg1'/>
                         <div className='tdtxt'>
-                        <p className='tdtstp1'>Regular Knowledge Assesment</p>
+                        <p className='tdtstp1'>Feedback Assesment2</p>
                         <p className='tdtstp2'>8-Aug-2022 09:00 am to  10:00 am</p>
                         <button className='tdb3'>Take Test</button>
                         </div>
@@ -41,7 +42,7 @@ export default class Testdash extends Component {
                     <div className='tdtst'>
                         <img src={test} alt="hi" className='tdimg1'/>
                         <div className='tdtxt'>
-                        <p className='tdtstp1'>Regular Knowledge Assesment</p>
+                        <p className='tdtstp1'>Feedback Assesment3</p>
                         <p className='tdtstp2'>8-Aug-2022 09:00 am to  10:00 am</p>
                         <button className='tdb3'>Take Test</button>
                         </div>
@@ -50,19 +51,9 @@ export default class Testdash extends Component {
 
                     
                 </div>
-                <div className='tdcont'>
-                    <div className='tdtst'>
-                        <img src={test} alt="hi" className='tdimg1'/>
-                        <div className='tdtxt'>
-                        <p className='tdtstp1'>Regular Knowledge Assesment</p>
-                        <p className='tdtstp2'>8-Aug-2022 09:00 am to  10:00 am</p>
-                        <button className='tdb3'>Take Test</button>
-                        </div>
-                       
-                    </div>
-
+                
                     
-                </div>
+                
 
 
             </div>

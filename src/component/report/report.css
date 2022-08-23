@@ -1,0 +1,39 @@
+.reportcont {
+    margin-left: 20%;
+    width: 80%;
+    height: 87.2%;
+    z-index: -1;
+    margin-top: 5.8%;
+    position: absolute;
+}
+
+.gph1 {
+    width: 60%;
+    margin-top: 3%;
+    margin-left: 23%;
+    box-shadow: rgba(60, 64, 67, 0.3) 3px 3px 3px 3px;
+    border-radius: 20px;
+    position: relative;
+    padding: 2%;
+    
+
+}
+.gph2 {
+    width: 60%;
+    margin-top: 3%;
+    margin-left: 23%;
+    box-shadow: rgba(60, 64, 67, 0.3) 3px 3px 3px 3px;
+    border-radius: 20px;
+    position: relative;
+    padding: 2%;
+    
+
+}
+
+.rp1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2%;
+
+}

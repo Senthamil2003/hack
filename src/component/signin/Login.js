@@ -62,7 +62,7 @@ export default class Signup extends Component {
                 </div>
               </div>
               <a className='forgetpass' href="youtube.com">Forgot Password?</a>
-              <Link to="/student"><button  class="loginbtn" >Login</button></Link>
+              <Link to="/student/dashboard"><button  class="loginbtn" >Login</button></Link>
               
             </form>
           </div>

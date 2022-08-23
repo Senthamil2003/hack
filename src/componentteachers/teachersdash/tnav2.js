@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import "./Nav.css"
+import "./tnav.css"
 import menu from "../../image/menu.png"
 import { NavLink} from "react-router-dom";
 
-export default class Nav2 extends Component {
+export default class Tnav2 extends Component {
     render() {
         return (
             <div>
@@ -43,7 +43,7 @@ export default class Nav2 extends Component {
                         <p className='sidep'>Take Test</p>
                     </NavLink>
                     <NavLink
-                        to="/student/material"
+                        to="/student/report"
                         style={({ isActive }) => ({
                             color: isActive ? 'white' : 'white',
                             backgroundImage: isActive ? 'linear-gradient(195deg, #49a3f1, #1A73E8)' : '',
@@ -58,7 +58,7 @@ export default class Nav2 extends Component {
                         <p className='sidep'>Report</p>
                     </NavLink>
                     <NavLink
-                        to="/student/roadmap"
+                        to="/student/material"
                         style={({ isActive }) => ({
                             color: isActive ? 'white' : 'white',
                             backgroundImage: isActive ? 'linear-gradient(195deg, #49a3f1, #1A73E8)' : '',
@@ -73,7 +73,7 @@ export default class Nav2 extends Component {
                         <p className='sidep'>Road map</p>
                     </NavLink>
                     <NavLink
-                        to="/student/material1"
+                        to="/student/material"
                         style={({ isActive }) => ({
                             color: isActive ? 'white' : 'white',
                             backgroundImage: isActive ? 'linear-gradient(195deg, #49a3f1, #1A73E8)' : '',
