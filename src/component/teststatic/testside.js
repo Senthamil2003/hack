@@ -5,7 +5,10 @@ import "./maintest.css"
 import tstclr from "../../image/testcolor.png"
 
 export default class Testside extends Component {
+
     render() {
+
+        let {questions} = this.props
         return (
             <div className='tottst'>
                 <div className='nav1'>
@@ -51,24 +54,22 @@ export default class Testside extends Component {
                 <div className='tside'>
                     <h3 className='sideh1'>Question overview</h3>
                     <div className='sidecont'>
-
-
-                        <div className='sidehold'><Link to="/answer"> <div className='circle1'><p className='ttxt1'>1</p></div></Link></div>
-                        <div className='sidehold'><Link to="/answer"> <div className='circle'><p className='ttxt1'>2</p></div></Link></div>
-                        <div className='sidehold'><Link to="/answer"> <div className='circle'><p className='ttxt1'>3</p></div></Link></div>
-                        <div className='sidehold'><Link to="/answer"> <div className='circle'><p className='ttxt1'>4</p></div></Link></div>
+                        <div className='sidehold'><div onClick={() => this.props.handleQuestionChange(1)} className={"circle" + (questions[0].state === "visited"? 1 : (questions[0].state === "answered" ? 2 : ""))}><p className='ttxt1'>1</p></div></div>
+                        <div className='sidehold'><div onClick={() => this.props.handleQuestionChange(2)} className={"circle" + (questions[1].state === "visited"? 1 : (questions[1].state === "answered" ? 2 : ""))}><p className='ttxt1'>2</p></div></div>
+                        <div className='sidehold'><div onClick={() => this.props.handleQuestionChange(3)} className={"circle" + (questions[2].state === "visited"? 1 : (questions[2].state === "answered" ? 2 : ""))}><p className='ttxt1'>3</p></div></div>
+                        <div className='sidehold'><div onClick={() => this.props.handleQuestionChange(4)} className={"circle" + (questions[3].state === "visited"? 1 : (questions[3].state === "answered" ? 2 : ""))}><p className='ttxt1'>4</p></div></div>
                     </div>
                     <div className='sidecont'>
-                        <div className='sidehold'><Link to="/answer"> <div className='circle'><p className='ttxt1'>5</p></div></Link></div>
-                        <div className='sidehold'><Link to="/answer"> <div className='circle'><p className='ttxt1'>6</p></div></Link></div>
-                        <div className='sidehold'><Link to="/answer"> <div className='circle'><p className='ttxt1'>7</p></div></Link></div>
-                        <div className='sidehold'><Link to="/answer"> <div className='circle'><p className='ttxt1'>8</p></div></Link></div>
+                        <div className='sidehold'><div onClick={() => this.props.handleQuestionChange(5)} className={"circle" + (questions[4].state === "visited"? 1 : (questions[4].state === "answered" ? 2 : ""))}><p className='ttxt1'>5</p></div></div>
+                        <div className='sidehold'><div onClick={() => this.props.handleQuestionChange(6)} className={"circle" + (questions[5].state === "visited"? 1 : (questions[5].state === "answered" ? 2 : ""))}><p className='ttxt1'>6</p></div></div>
+                        <div className='sidehold'><div onClick={() => this.props.handleQuestionChange(7)} className={"circle" + (questions[6].state === "visited"? 1 : (questions[6].state === "answered" ? 2 : ""))}><p className='ttxt1'>7</p></div></div>
+                        <div className='sidehold'><div onClick={() => this.props.handleQuestionChange(8)} className={"circle" + (questions[7].state === "visited"? 1 : (questions[7].state === "answered" ? 2 : ""))}><p className='ttxt1'>8</p></div></div>
                     </div>
                     <div className='sidecont'>
-                        <div className='sidehold'><Link to="/answer"> <div className='circle'><p className='ttxt1'>9</p></div></Link></div>
-                        <div className='sidehold'><Link to="/answer"> <div className='circle'><p className='ttxt2'>10</p></div></Link></div>
-                        <div className='sidehold'><Link to="/answer"> <div className='circle'><p className='ttxt2'>11</p></div></Link></div>
-                        <div className='sidehold'><Link to="/answer"> <div className='circle'><p className='ttxt2'>12</p></div></Link></div>
+                        <div className='sidehold'><div onClick={() => this.props.handleQuestionChange(9)} className={"circle" + (questions[8].state === "visited"? 1 : (questions[8].state === "answered" ? 2 : ""))}><p className='ttxt1'>9</p></div></div>
+                        <div className='sidehold'><div onClick={() => this.props.handleQuestionChange(10)} className={"circle" + (questions[9].state === "visited"? 1 : (questions[9].state === "answered" ? 2 : ""))}><p className='ttxt2'>10</p></div></div>
+                        <div className='sidehold'><div onClick={() => this.props.handleQuestionChange(11)} className={"circle" + (questions[10].state === "visited"? 1 : (questions[10].state === "answered" ? 2 : ""))}><p className='ttxt2'>11</p></div></div>
+                        <div className='sidehold'><div onClick={() => this.props.handleQuestionChange(12)} className={"circle" + (questions[11].state === "visited"? 1 : (questions[11].state === "answered" ? 2 : ""))}><p className='ttxt2'>12</p></div></div>
                     </div>
                     <br />
                     

@@ -10,52 +10,19 @@ export default class Feedback extends Component {
                 <div className='tstcat'>
                 <Link to="/student/acadamics"> <button className='tdb2'>Acadamics</button></Link>
                    <button className='tdb1'>Feedback</button>
-                   
                 </div>
-                <div className='tdcont'>
-                    <div className='tdtst'>
-                        <img src={test} alt="hi" className='tdimg1'/>
-                        <div className='tdtxt'>
-                        <p className='tdtstp1'>Feedback Assesment1</p>
-                        <p className='tdtstp2'>8-Aug-2022 09:00 am to  10:00 am</p>
-                       <Link to="/test/beforetst"><button className='tdb3'>Take Test</button></Link> 
+                {[...Array(3)].map((item, index) => (
+                    <div className='tdcont' key={item}>
+                        <div className='tdtst'>
+                            <img src={test} alt="hi" className='tdimg1'/>
+                            <div className='tdtxt'>
+                            <p className='tdtstp1'>{"Feedback Assessment " + (index+1)}</p>
+                            <p className='tdtstp2'>8-Aug-2022 09:00 am to  10:00 am</p>
+                            <Link to="/test/beforetst"><button className='tdb3'>Take Test</button></Link> 
+                            </div>
                         </div>
-                       
                     </div>
-
-                    
-                </div>
-                <div className='tdcont'>
-                    <div className='tdtst'>
-                        <img src={test} alt="hi" className='tdimg1'/>
-                        <div className='tdtxt'>
-                        <p className='tdtstp1'>Feedback Assesment2</p>
-                        <p className='tdtstp2'>8-Aug-2022 09:00 am to  10:00 am</p>
-                        <button className='tdb3'>Take Test</button>
-                        </div>
-                       
-                    </div>
-
-                    
-                </div>
-                <div className='tdcont'>
-                    <div className='tdtst'>
-                        <img src={test} alt="hi" className='tdimg1'/>
-                        <div className='tdtxt'>
-                        <p className='tdtstp1'>Feedback Assesment3</p>
-                        <p className='tdtstp2'>8-Aug-2022 09:00 am to  10:00 am</p>
-                        <button className='tdb3'>Take Test</button>
-                        </div>
-                       
-                    </div>
-
-                    
-                </div>
-                
-                    
-                
-
-
+                ))}
             </div>
         )
     }

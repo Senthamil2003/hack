@@ -69,7 +69,7 @@ export default class Test extends Component {
 
                         </div>
                         <div className='tl1'></div>
-                        <Link to="/test/main/qs1"><button className='tstbtn'>Start Test</button></Link>
+                        <Link to="/test/main/questions"><button className='tstbtn'>Start Test</button></Link>
                         
 
 

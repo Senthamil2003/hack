@@ -149,9 +149,6 @@ export default function Greet() {
                 <div className='tot' id="div1">
                     
                     <div className='div1'>
-
-                     
-
                     </div>
                     <div className='div2'>
 

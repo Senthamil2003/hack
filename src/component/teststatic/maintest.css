@@ -41,8 +41,15 @@
     width: 55px;
     border-radius: 50%;
     background-color: #E85C5B;
-
 }
+
+.circle2 {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: green;
+}
+
 
 .ttxt1 {
     position: absolute;
