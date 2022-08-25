@@ -28,3 +28,31 @@
     font-size: 20px;
     margin-left: 1%;
 }
+.footer {
+    width: 100%;
+    height: 100px;
+  margin-top: 7%;
+    display: flex;
+
+}
+
+.sbtn5 {
+    height: 48px;
+    width: 150px;
+    background-color: #142757;
+    margin-left: 190%;
+    color: white;
+    margin-top: 3%;
+    position: relative;
+
+}
+
+.sbtn7 {
+    height: 48px;
+    width: 150px;
+    background-color: #142757;
+    margin-left: 230%;
+    color: white;
+    margin-top: 3%;
+    position: relative;
+}

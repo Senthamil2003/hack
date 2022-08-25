@@ -157,43 +157,17 @@
 
 }
 
-.footer {
-    width: 75%;
-    height: 100px;
-    margin-top: 27.5%;
-    display: flex;
-
-}
-
-.sbtn5 {
-    height: 48px;
-    width: 150px;
-    background-color: #142757;
-    margin-left: 28%;
-    color: white;
-    margin-top: 3%;
-
-}
 
 .sbtn6 {
     height: 48px;
     width: 150px;
     background-color: #B90606;
-    margin-left: 1%;
+    margin-left: 2%;
     color: white;
     margin-top: 3%;
 
 }
 
-.sbtn7 {
-    height: 48px;
-    width: 150px;
-    background-color: #142757;
-    margin-left: 1%;
-    color: white;
-    margin-top: 3%;
-
-}
 
 .timecont {
     display: flex;

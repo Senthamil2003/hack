@@ -7,10 +7,22 @@
     position: absolute;
 }
 .rline1{
-    width: 95%;
+    width: 25%;
     border-radius: 10px;
-    height:6px;
+    height:16px;
     background-image: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
     margin-top: 25%;
     margin-left: 2.5%;
+}
+.rline2{
+    width: 25%;
+    border-radius: 10px;
+    height:16px;
+    background-image: linear-gradient(195deg, #ffdd00, #fbb034);
+    
+}
+.rimg1{
+    margin-left: 22%;
+    margin-top: 9%;
+    width:1000px;
 }

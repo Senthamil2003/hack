@@ -14,6 +14,9 @@ import Feedback from './component/teststatic/testdashfeedback';
 import Tdash from './componentteachers/teachersdash/tdash';
 import Report from './component/report/Report';
 import Roadmap from './component/Roadmap/Roadmap';
+import Qstn2 from './component/Testqstn/qstn2';
+import Qstn3 from './component/Testqstn/qstn3';
+import Qstn4 from './component/Testqstn/qstn4';
 
 
 
@@ -42,6 +45,10 @@ function App() {
 
                            
             <Route path="/test/main/qs1" element={<Qstn1 />} />
+            <Route path="/test/main/qs2" element={<Qstn2 />} />
+            <Route path="/test/main/qs3" element={<Qstn3 />} />
+            <Route path="/test/main/qs4" element={<Qstn4 />} />
+          
 
           </Route>
           <Route path="/teachers" element={<Tdash />} />

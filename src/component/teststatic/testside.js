@@ -6,6 +6,7 @@ import tstclr from "../../image/testcolor.png"
 
 export default class Testside extends Component {
     render() {
+        
         return (
             <div className='tottst'>
                 <div className='nav1'>
@@ -53,10 +54,10 @@ export default class Testside extends Component {
                     <div className='sidecont'>
 
 
-                        <div className='sidehold'><Link to="/answer"> <div className='circle1'><p className='ttxt1'>1</p></div></Link></div>
-                        <div className='sidehold'><Link to="/answer"> <div className='circle'><p className='ttxt1'>2</p></div></Link></div>
-                        <div className='sidehold'><Link to="/answer"> <div className='circle'><p className='ttxt1'>3</p></div></Link></div>
-                        <div className='sidehold'><Link to="/answer"> <div className='circle'><p className='ttxt1'>4</p></div></Link></div>
+                        <div className='sidehold'><Link to="/test/main/qs1"> <div className='circle1'><p className='ttxt1'>1</p></div></Link></div>
+                        <div className='sidehold'><Link to="/test/main/qs2"> <div className='circle'><p className='ttxt1'>2</p></div></Link></div>
+                        <div className='sidehold'><Link to="/test/main/qs3"> <div className='circle'><p className='ttxt1'>3</p></div></Link></div>
+                        <div className='sidehold'><Link to="/test/main/qs4"> <div className='circle'><p className='ttxt1'>4</p></div></Link></div>
                     </div>
                     <div className='sidecont'>
                         <div className='sidehold'><Link to="/answer"> <div className='circle'><p className='ttxt1'>5</p></div></Link></div>
@@ -97,12 +98,7 @@ export default class Testside extends Component {
                     <hr></hr>
                 </div>
                 <hr className='tline1'></hr>
-                <div className='footer'>
-                    <button className='sbtn5'>Previous</button>
-                    <button className='sbtn6'>Ckear section</button>
-                    <button className='sbtn7'>Next</button>
-
-                </div>
+              
             
 
             </div>

@@ -1,35 +1,35 @@
 import React, { Component } from 'react'
 import "./qstn.css"
 import { Link } from 'react-router-dom'
-export default class Qstn1 extends Component {
+
+export default class Qstn2 extends Component {
     render() {
         return (
             <div className='qs1'>
                 <div className='qsdiv1'>
-                    <p className='qsp1'>1.What is the basic unit of our neural system?</p>
+                    <p className='qsp1'>2. ______ is the festival associated with harvest season.</p>
 
                 </div>
                 <div className='option'>
                     <input type="radio" name="ans"/>
-                    <label className='ans'>Neutron</label>
+                    <label className='ans'>Dussehra</label>
                     <br></br>
                     <br></br>
                     <input type="radio" name="ans"/>
-                    <label className='ans'>Neuron</label>
+                    <label className='ans'>Ganesh Chaturthi</label>
                     <br></br>
                     <br></br>
                     <input type="radio" name="ans"/>
-                    <label className='ans'>Nephron</label>
+                    <label className='ans'>Balsakhi</label>
                     <br></br>
                     <br></br>
                     <input type="radio" name="ans"/>
-                    <label className='ans'>Neuclotron</label>
+                    <label className='ans'>Christmas</label>
 
                 </div>
-
                 <div className='footer'>
                 <Link to="/test/main/qs1"> <button className='sbtn5'>Previous</button></Link>
-                <Link to="/test/main/qs2">  <button className='sbtn7'>Next</button></Link>
+                <Link to="/test/main/qs3">  <button className='sbtn7'>Next</button></Link>
 
                 </div>
 
