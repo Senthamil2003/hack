@@ -12,11 +12,18 @@ import Dashboard from './component/Main/Dashoard';
 import Testdash from './component/teststatic/testdashacadamics';
 import Feedback from './component/teststatic/testdashfeedback';
 import Tdash from './componentteachers/teachersdash/tdash';
-import Report from './component/report/Report';
+
 import Roadmap from './component/Roadmap/Roadmap';
 import Qstn2 from './component/Testqstn/qstn2';
 import Qstn3 from './component/Testqstn/qstn3';
 import Qstn4 from './component/Testqstn/qstn4';
+
+import Acadamicsreport from './component/report/acadamics';
+import Feedbackreport from './component/report/feedback';
+import Report from './component/report/Report';
+import Pie from './component/report/piegraph';
+import Matdisp from './component/Ematerial/Ematerial';
+
 
 
 
@@ -33,8 +40,13 @@ function App() {
             <Route path="/student/dashboard" element={<Dashboard />} />
             <Route path="/student/acadamics" element={<Testdash />} />
             <Route path="/student/acadamics/feedback" element={<Feedback />} />
-            <Route path="/student/material" element={<Report />} />
+            <Route path="/student/acadamicscard" element={<Acadamicsreport/>} />
+            <Route path="/student/acadamicscard/report" element={<Report/>} />
+
+            <Route path="/student/acadamicscard/feedbackcard" element={<Feedbackreport/>} />
+            <Route path="/student/acadamicscard/feedbackcard/report" element={<Pie/>} />
             <Route path="/student/roadmap" element={<Roadmap />} />
+            <Route path="/student/materials" element={<Matdisp/>} />
             
 
 

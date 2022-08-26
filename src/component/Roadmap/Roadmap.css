@@ -1,28 +1,158 @@
-.rhome {
+.rphome {
     margin-left: 20%;
     width: 80%;
     height: 87.2%;
     z-index: -1;
     margin-top: 5.8%;
     position: absolute;
+    background-color: #ebebeb;
 }
-.rline1{
-    width: 25%;
+.roadmapimgcss{
+    position: absolute;
+    top: -10%;
+    width:100%;
+    height:100%;
+}
+
+.vc{
+    color: white;
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 38.5%;
+    font-size: 19px;
+    top:14.4%;
+    border: 2px solid #B40200;
+    background-color: #B40200;
     border-radius: 10px;
-    height:16px;
-    background-image: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
-    margin-top: 25%;
-    margin-left: 2.5%;
+    padding: 3px;
 }
-.rline2{
-    width: 25%;
+.ph{
+    color: white;
+    position: absolute;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 20.5%;
+    left: 16%;
+    border: 2px solid #D64103;
+    background-color: #D64103;
     border-radius: 10px;
-    height:16px;
-    background-image: linear-gradient(195deg, #ffdd00, #fbb034);
-    
+    padding: 3px;
 }
-.rimg1{
-    margin-left: 22%;
-    margin-top: 9%;
-    width:1000px;
+
+.ch{
+    position: absolute;
+    color: white;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top:22%;
+    left: 65%;
+    border: 2px solid #E5BD02;
+    background-color: #E5BD02;
+    border-radius: 10px;
+    padding: 3px;
 }
+
+.am{
+    position: absolute;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    top:47.5%;
+    left: 27%;
+    border: 2px solid #00A002;
+    background-color: #00A002;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.ta{
+    position: absolute;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    top: 65%;
+    left: 60%;
+    border: 2px solid #0071DB;
+    background-color: #0071DB;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+
+
+
+.algebraline{
+    position: absolute;
+    border: 1.5px solid #64B9EF;
+    height: 70px;
+    border-radius: 40px;
+    background-color: #64b8ef;
+    width: -5px;
+    margin-top: 29%;
+    margin-left: 23.5%;
+}
+
+.cognitiveline{
+    position: absolute;
+    border: 1.5px solid #FECE6A;
+    width: 0px;
+    background-color: #FECE6A;
+    border-radius: 40px;
+    height: 70px;
+    margin-top: 29%;
+    margin-left: 66.5%;
+}
+
+.physicsline{
+    position: absolute;
+    border: 1.5px solid #6ED38D;
+    width: 0px;
+    background-color: #6ED38D;
+    border-radius: 40px;
+    height: 70px;
+    margin-top: 29%;
+    margin-left: 37.7%;
+}
+
+.chemistryline{
+    position: absolute;
+    border: 1.5px solid #FF785A;
+    width: 0px;
+    background-color: #FF785A;
+    height: 70px;
+    border-radius: 40px;
+    margin-top: 29%;
+    margin-left: 52.1%;
+}
+
+.verballine{
+    position: absolute;
+    border: 1.5px solid #FF9913;
+    width: 0px;
+    background-color: #FF9913;
+    height: 70px;
+    border-radius: 40px;
+    margin-top: 29%;
+    margin-left: 80.8%;
+}
+.algebra{
+    position: absolute;
+    border:4px solid #64b8ef;
+    background-color: #64b8ef;
+    padding: 3px;
+    height: 150px;
+    border-radius: 50px;
+    width: 200px;
+    margin-top: 34.5%;
+    margin-left: 16%;
+}
+
+
+
+
+
+
+
+
+
+

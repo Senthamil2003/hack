@@ -45,24 +45,24 @@ export default class Signup extends Component {
                   </svg>
 
                 </div>
-                <div class="logindiv">
+                <div className="logindiv">
                   <h5>Username</h5>
                   <input type="text" ></input>
                 </div>
               </div>
               <div class="input-div">
                 <div class="i">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-lock" viewBox="0 0 16 16">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-lock" viewBox="0 0 16 16">
                     <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z" />
                   </svg>
                 </div>
                 <div class="logindiv">
                   <h5>Password</h5>
-                  <input type="password" class="logininput"></input>
+                  <input type="password" className="logininput"></input>
                 </div>
               </div>
               <a className='forgetpass' href="youtube.com">Forgot Password?</a>
-              <Link to="/student/dashboard"><button  class="loginbtn" >Login</button></Link>
+              <Link to="/student/dashboard"><button  className="loginbtn" >Login</button></Link>
               
             </form>
           </div>

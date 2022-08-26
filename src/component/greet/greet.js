@@ -121,17 +121,17 @@ export default function Greet() {
                                 <a href='#div1' onClick={() => { a1('c1') }} className={(ct1 === 1) ? 'listitem1' : "listitem"}>Home</a>
                             </div>
                             <div onClick={() => { a1('c2') }} className={(ct2 === 1) ? 'listitem-active' : "cont"}>
-                                <a href='#div2'onClick={() => { a1('c2') }} className={(ct2 === 1) ? 'listitem1' : "listitem"}>Student</a>
+                                <a href='#div2'onClick={() => { a1('c2') }} className={(ct2 === 1) ? 'listitem1' : "listitem"}>Material</a>
                             </div>
                             <div onClick={() => { a1('c3') }} className={(ct3 === 1) ? 'listitem-active' : "cont"}>
-                                <a href='#div3' onClick={() => { a1('c3') }} className={(ct3 === 1) ? 'listitem1' : "listitem"}>Teachers</a>
+                                <a href='#div3' onClick={() => { a1('c3') }} className={(ct3 === 1) ? 'listitem1' : "listitem"}>Benefits</a>
                             </div>
                             <div onClick={() => { a1('c4') }} className={(ct4 === 1) ? 'listitem-active' : "cont"}>
-                                <a href='#div4' onClick={() => { a1('c4') }} className={(ct4 === 1) ? 'listitem1' : "listitem"} >Report</a>
+                                <a href='#div4' onClick={() => { a1('c4') }} className={(ct4 === 1) ? 'listitem1' : "listitem"} >Teachers</a>
 
                             </div>
                             <div nClick={() => { a1('c5') }} className={(ct5 === 1) ? 'listitem-active' : "cont"}>
-                                <a href='#div5' onClick={() => { a1('c5') }} className={(ct5 === 1) ? 'listitem1' : "listitem"}>Courses</a>
+                                <a href='#div5' onClick={() => { a1('c5') }} className={(ct5 === 1) ? 'listitem1' : "listitem"}>Students</a>
                             </div>
 
 
