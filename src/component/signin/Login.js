@@ -46,7 +46,7 @@ export default class Signup extends Component {
 
                 </div>
                 <div className="logindiv">
-                  <h5>Username</h5>
+                  <h5>UserNameBuddy</h5>
                   <input type="text" ></input>
                 </div>
               </div>
